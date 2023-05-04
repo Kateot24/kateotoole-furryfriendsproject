@@ -1,0 +1,2870 @@
+@charset "utf-8";
+
+html * {
+    padding: 0;
+    font-family: Bahnschrift;
+    box-sizing: border-box;
+
+}
+
+.topheader {
+    background-color: #34ADD3;
+    height: 70px;
+    margin-top: -20px;
+    background-position: center;
+    width: 110%;
+	margin-left: -20px;
+}
+
+#headerclock {
+    margin-top: 21px;
+    margin-left: 80px;
+}
+
+#headertime {
+    margin-left: 120px;
+    margin-top: -33px;
+    font-size: 12px;
+    color: white;
+}
+
+#headerlocation {
+    margin-top: -73px;
+    margin-left: 280px;
+    margin-bottom: 43px;
+}
+footer {
+    height: 120px;
+    background-color: #34ADD3;
+	margin-top: -18px;
+}
+
+#footertime {
+	color: white;
+	font-size: 15px;
+	padding-top: 16px;
+	padding-left: 80px;
+}
+
+.footercontact p {
+	color: white;
+	padding-left: 200px;
+	font-size: 15px;
+	padding-top: -10px;
+}
+
+
+
+
+#headerlocationtext {
+    margin-left: 315px;
+    margin-top: -72px;
+    font-size: 12px;
+    color: white;
+    margin-bottom: 13px;
+}
+
+#headerphone {
+    margin-left: 280px;
+    margin-top: -7px;
+}
+
+#headerphonetext {
+    color: white;
+    margin-left: 315px;
+    margin-top: -23px;
+    font-size: 12px;
+}
+
+.contacticons {
+	margin-left: 160px;
+	
+}
+
+
+
+.navbar {
+	Background: #FFFFFF;
+
+	}
+
+	.navbar ul {
+    list-style-type: none;
+	font-size: 15px;
+	
+	
+}
+	.navbar ul li {
+
+		background: #FFFFFF;
+		
+	}
+	
+	.navbar ul li a {
+		display: block;
+		text-decoration: none;
+		background: #FFFFFF;
+		padding: 8px;
+		color: #ACACAC;
+		font-family: "rooney-sans", sans-serif;
+		font-weight: 500;
+	font-style: normal;
+}
+	
+	.navbar ul li ul.dropdown li {
+		display: block; 
+		text-align: left;
+		position: relative;
+		background: #FFFFFF;
+	}
+	
+	.navbar ul li ul.dropdown {
+		width: 100%;
+		background: #FFFFFF;
+		position: absolute;
+		z-index: 9;
+		display: none;
+		
+	}
+	
+	.navbar ul li a:hover {
+		background: #FFFFFF;
+		
+}
+	
+	ul li:hover ul.dropdown {
+		display: block;
+		
+	}
+
+
+
+
+
+.logo {
+    padding: auto;
+    display: block;
+    margin-top: 20px;
+}
+header {
+    padding: 10px;
+    background-color: white;
+}
+
+.homeimgparallax {
+	min-height: 400px;
+	background-attachment:fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size:cover;
+	background-image: url(../Images/fetch-g71edf3d0c_640.jpg);
+}
+.homeimg {
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 500px;
+    margin-top: -50px;
+    opacity: 85%;       
+}
+.home h1 {
+    color: #FFFFFF;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 157px;
+}
+.home h5 {
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 20px;
+    padding-bottom: 50px;
+
+}
+.button-home {
+    background-color: #E28517;
+    border: solid;
+    border-color: #E28517;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    padding-right: 25px;
+    padding-left: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+  	margin: 0;
+  	position: absolute;
+  	left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+#hometitle {
+	font-size: 25px;
+	margin-top: 90px;
+	padding-left: 90px;
+	font-family: "rooney-sans", sans-serif;
+	font-weight: 800;
+	font-style: normal;
+}
+
+#hometext {
+	padding-left: 50px;
+	margin-top: 30px;
+	font-size: 18px;
+	font-family: "rooney-sans", sans-serif;
+	font-weight: 600;
+	font-style: normal;
+}
+
+#hometext2 {
+	padding-left: 50px;
+	margin-top: 30px;
+	font-size: 18px;
+	font-family: "rooney-sans", sans-serif;
+	font-weight: 500;
+	}
+#homeimg {
+	height: 300px;
+	float: left;
+    margin-top: 10px;
+	border-radius: 50%;
+	margin-left: 110px;
+	}
+
+.homeservices {
+	margin-top: 350px;
+}
+
+#serviceshome {
+	font-size: 30px;
+	font-family: "rooney-sans", sans-serif;
+	font-weight: 800;
+	margin-top: 90px;
+	padding-left: 150px;
+}
+
+#daycarehomeicon {
+	margin-top: 10px;
+	padding-left: 210px;
+}
+
+#daycarehometitle {
+	font-size: 23px;
+	font-family: "rooney-sans", sans-serif;
+	font-weight: 800;
+	margin-top: 20px;
+	padding-left: 165px;
+	
+}
+
+#daycarehometext {
+	font-family: "rooney-sans", sans-serif;
+	font-weight: 500;
+	padding-left: 110px;
+	margin-top: 30px;
+	font-size: 18px;
+}
+
+#betterpupshomeicon {
+	margin-top: 130px;
+	padding-left: 210px;
+}
+
+#betterpupshometitle {
+	font-size: 23px;
+	font-family: "rooney-sans", sans-serif;
+	font-weight: 800;
+	margin-top: 20px;
+	padding-left: 130px;
+}
+
+#betterpupshometext {
+	padding-left: 80px;
+	margin-top: 30px;
+	font-size: 18px;
+	font-family: "rooney-sans", sans-serif;
+	font-weight: 500;
+}
+
+#happypawshomeimg {
+	margin-top: 130px;
+	padding-left: 210px;
+}
+
+#happypawshometitle {
+	font-size: 23px;
+	font-family: "rooney-sans", sans-serif;
+	font-weight: 800;
+	margin-top: 20px;
+	padding-left: 125px;
+}
+
+#happypawshometext {
+	padding-left: 110px;
+	margin-top: 30px;
+	font-size: 18px;
+	font-family: "rooney-sans", sans-serif;
+	font-weight: 500;
+}
+
+#hotelhomeimg {
+	margin-top: 130px;
+	padding-left: 210px;
+}
+
+#hotelhometitle {
+	font-size: 23px;
+	font-family: "rooney-sans", sans-serif;
+	font-weight: 800;
+	margin-top: 20px;
+	padding-left: 145px;
+}
+
+#hotelhometext {
+	padding-left: 120px;
+	margin-top: 30px;
+	font-size: 18px;
+	font-family: Bahnschrift;
+	font-weight: 400;
+}
+
+.button-daycare {
+	background-color: #E28517;
+    border: solid;
+    border-color: #E28517;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    padding-right: 25px;
+    padding-left: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+  	margin-top: 50px;
+  	position: absolute;
+  	left: 52%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.button-training {
+	background-color: #E28517;
+    border: solid;
+    border-color: #E28517;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    padding-right: 25px;
+    padding-left: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+  	margin-top: 50px;
+  	position: absolute;
+  	left: 52%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.button-grooming {
+	background-color: #E28517;
+    border: solid;
+    border-color: #E28517;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    padding-right: 25px;
+    padding-left: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+  	margin-top: 50px;
+  	position: absolute;
+  	left: 52%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.button-hotel {
+	background-color: #E28517;
+    border: solid;
+    border-color: #E28517;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    padding-right: 25px;
+    padding-left: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+  	margin-top: 50px;
+  	position: absolute;
+  	left: 52%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+
+.missionhome {
+    background-image: url(../Images/Blue%20wave%20left.svg);
+	margin-top: -50px;
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	min-height: 550px;
+	}
+#missiontitle {
+	font-size: 23px;
+	font-family: "rooney-sans", sans-serif;
+	font-weight: 800;
+	margin-top: 210px;
+	padding-left: 180px;
+	padding-top: 50px;
+}
+
+#missiontext {
+	font-size: 18px;
+	margin-top: 10px;
+	font-family: Bahnschrift;
+	font-weight: 400;
+	margin-left: 90px;
+}
+
+.button-mission {
+	background-color: #E28517;
+    border: solid;
+    border-color: #E28517;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    padding-right: 25px;
+    padding-left: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+  	margin-top: 50px;
+  	position: absolute;
+  	left: 52%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+
+
+
+#missionimg {
+	float: left;
+    margin-top: 120px;
+	border-radius: 50%;
+	width: 200px;
+	height: 200px;
+	margin-left: 140px;
+}
+
+
+.titleimg {
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 500px;
+    opacity: 82%;
+    margin-top: -50px;
+    background-image: url(../Images/pomeranian-dog-g483df18ad_640.jpg);
+}
+.title h1 {
+	color: #FFFFFF;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 157px;
+}
+
+
+.title h5 {
+	color: #FFFFFF;
+    text-align: center;
+    font-size: 15px;
+    padding-bottom: 50px;
+}
+.aboususlogo img {
+    position: absolute;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    margin-top: 50px;
+}
+
+#background-bluewave {
+    background-image: url(../Images/Blue%20wave.svg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 1400px;
+}
+
+
+#aboutusicon {
+	margin-top: 40px;
+}
+#positivedogtitle {
+	font-size: 25px;
+	font-family: "rooney-sans", sans-serif;
+	font-weight: 800;
+	margin-top: 90px;
+	padding-left: 100px;
+}
+#positivedogtext {
+  	padding-left: 70px;
+	font-family: "rooney-sans", sans-serif;
+	font-weight: 500;
+	margin-top: 30px;
+	font-size: 18px;
+}
+
+
+#positivedogimg {
+    float: right;
+    margin-top: 120px;
+	border-radius: 50%;
+	width: 200px;
+	height: 200px;
+	margin-left: 10px;
+	
+}
+
+#stafftitle {
+	padding-left: 120px;
+	font-family: "rooney-sans", sans-serif;
+	font-weight: 800;
+	margin-top: 280px;
+	font-size: 25px;
+}
+
+#stafftext {
+	padding-left: 40px;
+	font-family: "rooney-sans", sans-serif;
+	font-weight: 500;
+	margin-top: 30px;
+	font-size: 18px;
+ 
+}
+#staffimg {
+	float: left;
+    margin-top: 120px;
+	border-radius: 50%;
+	width: 200px;
+	height: 200px;
+	margin-left: 10px;
+	}
+
+#facilitiestitle {
+	padding-left: 160px;
+	font-size: 25px;
+	font-family: "rooney-sans", sans-serif;
+	font-weight: 700;
+	margin-top:280px;
+   
+	
+}
+
+#facilitiestext {
+    padding-left: 30px;
+	padding-top: 10px;
+	font-family: "rooney-sans", sans-serif;
+	font-weight: 500;
+	font-size: 18px;	
+}
+
+#facilitiesimg {
+	float: left;
+    margin-top: 100px;
+	border-radius: 50%;
+	width: 200px;
+	height: 200px;
+	margin-left: 5px;
+	}
+
+.parallaxtraining {
+	background-image: url(../Images/First%20Slideshow/dog-school-g1833366c0_640.jpg);
+	min-height: 400px;
+	background-attachment:fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size:cover;
+	
+}
+.traininghomeimg {
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    opacity: 82%;
+    margin-top:-10px;
+  ;
+}
+.trainingabout {
+	height: 720px;
+	margin-top: 100px;
+	background: rgba(255,92,0,0.1);
+}
+
+.trainingtitle  {
+	color: #FFFFFF;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 70px;
+	
+}
+
+#trainingicon {
+	margin-left: 200px;
+	margin-top: 20px;
+	height: 60px;
+}
+
+#trainingtagline {
+	font-size:18px;
+	font-family: "rooney-sans", sans-serif;
+	font-weight: 800;
+	margin-left: 110px;
+	margin-top: 30px;
+	
+}
+
+#pawsacademytitle {
+	font-size: 25px;
+	text-align: center;
+	padding-top: 50px;
+	padding-left: 20px;
+	color:black;
+	font-family: "rooney-sans", sans-serif;
+	font-weight: 700;
+}
+
+#pawsacademyinfo {
+	padding-left: 50px;
+	margin-top: 60px;
+	font-family: "rooney-sans", sans-serif;
+	font-weight: 500;
+	font-size: 17px;
+}
+
+#pawsacademyinfo2{
+	font-family: "rooney-sans", sans-serif;
+	font-weight: 500;
+	font-size: 18px;
+	padding-left: 50px;
+	justify-content: center;
+	margin-top: 60px;
+	
+}
+
+#pawsacademyimg {
+	float: right;
+	border-radius: 50%;
+	width: 200px;
+	height: 200px;
+	margin-right: 130px;
+	margin-top: 30px;
+}
+
+#rehabtitle {
+	font-size: 25px;
+	font-family: "rooney-sans", sans-serif;
+	font-weight: 700;
+	margin-top: 70px;
+	padding-left: 110px;
+}
+
+#rehabtext {
+	padding-left: 30px;
+	margin-top: 40px;
+	font-size: 17px;
+	font-family: "rooney-sans", sans-serif;
+	font-weight: 500;
+}
+
+#rehabimg {
+	float: right;
+	border-radius: 50%;
+	width: 200px;
+	height: 200px;
+	margin-right: 130px;
+	margin-top: 120px;
+	
+}
+
+.button-behaviour {
+	background-color: #E28517;
+    border: solid;
+    border-color: #E28517;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    padding-right: 25px;
+    padding-left: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+  	margin-top: 50px;
+  	position: absolute;
+  	left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+	
+}
+
+
+
+#puppytrainingtitle {
+	padding-left: 160px;
+	margin-top: 400px;
+	font-size: 25px;
+	font-family: "rooney-sans", sans-serif;
+	font-weight: 700;
+}
+
+#puppytainingtext {
+	padding-left: 30px;
+	padding-top: 30px;
+	font-size: 17px;
+	font-family: "rooney-sans", sans-serif;
+	font-weight: 500;
+}
+
+#puppytainingimg {
+	border-radius: 50%;
+	width: 200px;
+	height: 200px;
+	margin-left: 130px;
+	margin-top: 120px;
+}
+
+.button-ptraining{
+	background-color: #E28517;
+    border: solid;
+    border-color: #E28517;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    padding-right: 25px;
+    padding-left: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+  	margin-top: 50px;
+  	position: absolute;
+  	left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+#k9trainingtitle {
+	padding-left: 110px;
+	font-size: 25px;
+	font-family: "rooney-sans", sans-serif;
+	font-weight: 700;
+	margin-top:-40px;
+}
+
+#k9trainingtext {
+	font-size: 17px;
+	padding-left: 50px;
+	font-family: "rooney-sans", sans-serif;
+	font-weight: 500;}
+
+#k9trainingimg {
+	float: right;
+	border-radius: 50%;
+	width: 200px;
+	height: 200px;
+	margin-right: 110px;
+	margin-top: 150px;	
+}
+
+.button-k9 {
+	background-color: #E28517;
+    border: solid;
+    border-color: #E28517;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    padding-right: 25px;
+    padding-left: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+  	margin-top: 80px;
+  	position: absolute;
+  	left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.trainingservices{
+	padding-bottom: 370px;
+}
+
+.ptrainingparallax {
+background-image: url(../Images/First%20Slideshow/dog-g212054585_640.jpg);
+	min-height: 400px;
+	background-attachment:fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size:cover;
+}
+.ptraininghomeimg {
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 300px;
+    opacity: 82%;
+    margin-top: -10px;
+}
+
+.ptrainingtitle h1 {
+	color: #FFFFFF;
+    font-size: 60px;
+    text-align: center;
+    padding-top: 130px;
+}
+
+.ptrainingtitle h5 {
+	color: #FFFFFF;
+    font-size: 20px;
+    text-align: center;
+	padding-top: 70px;}
+
+#backgroundbluewave2 {
+	background-image: url(../Images/Blue%20wave.svg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 2900px;
+	margin-top: -2px;
+	
+}
+
+#puppytrainingicon {
+	margin-left: 220px;
+	margin-top: 20px;
+	height: 60px;
+	
+}
+
+#puppytitle {
+	padding-left: 160px;
+	font-family: "rooney-sans", sans-serif;
+	font-weight: 700;
+	margin-top: 40px;
+	font-size: 25px;
+}
+	
+#aboutpuppytext {
+	padding-left: 110px;
+	padding-top: 30px;
+	font-size: 17px;
+	font-family: "rooney-sans", sans-serif;
+	font-weight: 500;
+	
+}
+
+#puppytraininghomeimg {
+	border-radius: 50%;
+	width: 200px;
+	height: 200px;
+	margin-left: 140px;
+	margin-top: 50px;
+}
+
+#puppytraininglisttitle {
+		font-size: 25px;
+		text-align: center;
+		
+	}
+
+
+
+#puppytraininglist {
+	padding-left: 180px;
+	padding-top: 30px;
+	font-family: "rooney-sans", sans-serif;
+	font-weight: 700;
+	font-size: 17px;
+	
+}
+
+#puppytraininghomeimg2 {
+	border-radius: 50%;
+	width: 200px;
+	height: 200px;
+	margin-left: 140px;
+	margin-top: 80px;
+}
+
+#puppytrainingvideo {
+	margin-top: 60px;
+	margin-left: 20px;
+}
+
+.columns {
+    width: 100%;
+    margin-top: 60px;	
+}
+
+.column1 {
+	background-color: #fff;
+	float: left;
+	width: 66.5%;
+	padding: 8px;
+	border: 1px solid #DDDDDD;;
+	margin-left: 80px;
+	text-align:center;
+}
+
+.price {
+	list-style-type: none;
+	border: 1px solid #fff;
+	margin:0;
+	padding:0;
+	-webkit-transition: 0.3s;
+	trainsition: 0.3s;
+}
+
+.price .header {
+	background-color: #fff;
+	color:black;
+	font-size:25px;
+	font-family: "rooney-sans", sans-serif;
+	font-weight: 600;
+}
+
+.pricing {
+	font-size: 30px;
+	font-weight: bold;
+	color:#E58357;
+	border-bottom: 1px solid #E8E8E8;
+}
+
+.price li {
+	padding-left: 30px;
+	padding: 20px;
+	font-family: "rooney-sans", sans-serif;
+	font-weight: 500;
+}
+
+.price .discount {
+	background-color: #fff;
+	color: #E58357
+}
+.button-price {
+	background-color: #E28517;
+    border: solid;
+    border-color: #E28517;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    padding-right: 35px;
+    padding-left: 35px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    text-align: center;
+	margin-top: 20px;
+	margin-left: 10px;
+}
+	
+.column2 {
+	margin-top: 50px;
+	background-color: #fff;
+	float: left;
+	width: 66.5%;
+	padding: 8px;
+	border: 1px solid #DDDDDD;;
+	margin-left: 80px;
+	text-align:center;
+	
+}
+
+.k9parallax {
+	background-image: url(../Images/First%20Slideshow/dog-gab214def1_640.jpg);
+	background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+	min-height: 300px;
+	background-attachment:fixed;
+}
+
+.k9traininghomeimg {
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 400px;
+    opacity: 82%;
+    margin-top: -10px;
+}
+
+.k9trainingtitle {
+	color: #FFFFFF;
+    font-family: Bahnschrift;
+    font-weight: 700;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 70px;
+	
+}
+ 
+#k9title {
+    padding-left: 180px;
+    margin-top: 105px;
+    font-size: 25px;
+	font-family: "rooney-sans", sans-serif;
+	font-weight: 700;
+}	
+#aboutk9text {
+	padding-left: 30px;
+	padding-top: 30px;
+	font-size: 17px;
+	font-family: "rooney-sans", sans-serif;
+	font-weight: 500;
+	
+}
+#k9ytraininghomeimg {
+	border-radius: 50%;
+	width: 200px;
+	height: 200px;
+	margin-left: 130px;
+	margin-top: 50px;
+	
+}
+
+#k9traininglisttitle {
+	padding-left: 170px;
+    margin-top: 126px;
+    font-size: 25px;
+	font-family: "rooney-sans", sans-serif;
+	font-weight: 700;
+	
+	
+}
+
+#k9traininglist {
+	padding-left: 60px;
+	padding-top: 20px;
+	font-size: 17px;
+	font-family: "rooney-sans", sans-serif;
+	font-weight: 500;
+
+}
+
+#k9traininghomeimg2 {
+	border-radius: 50%;
+	width: 200px;
+	height: 200px;
+	margin-left: 130px;
+	margin-top: 40px;
+	
+}
+#k9trainingvideo {
+	margin-top: 40px;
+	
+}
+.column3 {
+	background-color: #fff;
+	float: left;
+	width: 66.3%;
+	padding: 8px;
+	border: 1px solid #DDDDDD;;
+	margin-left: 80px;
+	text-align:center;
+}
+
+.column4 {
+	background-color: #fff;
+	float: left;
+	width: 66.3%;
+	padding: 8px;
+	border: 1px solid #DDDDDD;;
+	margin-left: 80px;
+	text-align:center;
+	margin-top: 40px;
+	
+}
+
+.daycareparallax {
+	background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+	min-height: 300px;
+	background-attachment:fixed;
+ background-image: url(../Images/cat-gedf3a8620_640.jpg);
+}
+
+.daycarehomeimg {
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 400px;
+    opacity: 82%;
+    margin-top: -10px;	
+}
+#daycareicon {
+	margin-left: 220px;
+	margin-top: 20px;
+	height: 60px;
+	
+}
+.daycare {
+	color: #FFFFFF;
+    font-family: "new-kansas", sans-serif;
+	font-weight: 700;
+	font-style: normal;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 70px;
+}
+
+#daycaretagline {
+	padding-left: 30px;
+    margin-top: 60px;
+    font-size: 25px;
+	text-align: center;
+	font-family: "rooney-sans", sans-serif;
+	font-weight: 700;
+}
+
+.daycareabout {
+	height: 1200px;
+	margin-top: 100px;
+	background: rgba(255,92,0,0.1);
+}
+
+#daycaretitle {
+    font-size: 25px;
+	text-align: center;
+	padding-top: 50px;
+	padding-left: 20px;
+	color:black;
+	font-family: "rooney-sans", sans-serif;
+	font-weight: 600;
+	
+}
+
+#daycareinfo {
+	padding-left: 50px;
+	margin-top: 60px;
+	font-family: "rooney-sans", sans-serif;
+	font-weight: 500;
+	font-size: 17px;
+}
+
+#daycareinfo2 {
+	font-family: "rooney-sans", sans-serif;
+	font-weight: 500;
+	font-size: 18px;
+	padding-left: 50px;
+	justify-content: center;
+	margin-top: 60px;
+}
+
+#daycareimg {
+	float: right;
+	border-radius: 50%;
+	width: 200px;
+	height: 200px;
+	margin-right: 130px;
+	margin-top: 30px;
+}
+
+.daycareservices {
+    background-image: url(../Images/Cat%20tail.svg);
+	 background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 800px;
+    margin-top: 20px;
+
+}
+
+#purfectloungetitle {
+	font-size: 25px;
+	font-family: "rooney-sans", sans-serif;
+	font-weight: 800;
+	margin-top: 70px;
+	padding-left: 150px;
+
+}
+#purfectloungtext {
+	padding-left: 30px;
+	margin-top: 40px;
+	font-size: 17px;
+	font-family: "rooney-sans", sans-serif;
+	font-weight: 500;
+}
+
+#purfectloungeimg {
+	float: right;
+	border-radius: 50%;
+	width: 200px;
+	height: 200px;
+	margin-right: 130px;
+	margin-top: 20px;
+}
+
+#daycarelist {
+	padding-left: 120px;
+	margin-top: 300px;
+	font-size: 25px;
+	font-family: "rooney-sans", sans-serif;
+	font-weight: 700;
+}
+
+#daycarelisttetx {
+	padding-left: 30px;
+	padding-top: 10px;
+	font-size: 17px;
+	font-family: "rooney-sans", sans-serif;
+	font-weight: 500;
+}
+
+#daycareimg2 {
+	border-radius: 50%;
+	width: 200px;
+	height: 200px;
+	margin-left: 130px;
+	margin-top: 100px;
+}
+.daycarepricelist {
+    background-color: #F5F5F5;	
+	height: 1200px;
+	margin-top: 310px;
+}
+
+.column5 {
+	background-color: #fff;
+	float: left;
+	width: 66.5%;
+	padding: 8px;
+	border: 1px solid #DDDDDD;;
+	margin-left: 80px;
+	text-align:center;
+	margin-top: 20px;
+}
+
+.column6 {
+	margin-top: 30px;
+	background-color: #fff;
+	float: left;
+	width: 66.5%;
+	padding: 8px;
+	border: 1px solid #DDDDDD;;
+	margin-left: 80px;
+	text-align:center;
+}
+
+.column7 {
+	margin-top: 30px;
+	background-color: #fff;
+	float: left;
+	width: 66.5%;
+	padding: 8px;
+	border: 1px solid #DDDDDD;;
+	margin-left: 80px;
+	text-align:center;
+}
+
+.hotelparallax {
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    min-height: 300px;
+    background-attachment: fixed;
+    background-image: url(../Images/cat-ga3a3e425e_640.jpg);	
+}
+
+.hotelhomeimg {
+	background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 400px;
+    opacity: 82%;
+    margin-top: -10px;
+}
+.hotel {
+	color: #FFFFFF;
+    font-family: Bahnschrift;
+    font-weight: 700;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 70px;
+}
+
+#hoteltagline {
+	padding-left: 5px;
+    margin-top: 40px;
+    font-size: 25px;
+	text-align: center;
+	font-family: "rooney-sans", sans-serif;
+	font-weight: 700;
+	
+}
+#hotelicon {
+	margin-left: 210px;
+	margin-top: 20px;
+	height: 60px;
+}
+
+#hoteltitle {
+	padding-left: 20px;
+    margin-top: 60px;
+    font-size: 25px;
+	text-align: center;
+	font-family: "rooney-sans", sans-serif;
+	font-weight: 700;
+}
+
+.hotelabout {
+	height: 650px;
+	margin-top: 100px;
+	background: rgba(255,92,0,0.1);
+}
+
+.hotelservices {
+	background-image: url(../Images/Cat%20tail.svg);
+	background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 800px;
+    margin-top: 20px;
+}
+
+#hoteltitle {
+	font-size: 25px;
+	text-align: center;
+	padding-top: 50px;
+	padding-left: 20px;
+	color:black;
+	font-family: "rooney-sans", sans-serif;
+	font-weight: 700;
+}
+
+#hotelinfo {
+	padding-left: 80px;
+	margin-top: 60px;
+	font-family: "rooney-sans", sans-serif;
+	font-weight: 500;
+	font-size: 17px;
+}
+
+#hotelinfo2 {
+	font-family: "rooney-sans", sans-serif;
+	font-weight: 500;
+	font-size: 17px;
+	padding-left: 80px;
+	justify-content: center;
+	margin-top: 40px;
+}
+
+#hotelimg {
+	float: right;
+	border-radius: 50%;
+	width: 200px;
+	height: 200px;
+	margin-right: 130px;
+	margin-top: 30px;
+	
+}
+
+#innfacilities {
+	font-size: 25px;
+	font-family: "rooney-sans", sans-serif;
+	font-weight: 700;
+	margin-top: 70px;
+	padding-left: 150px;
+}
+
+#innfacilitieslist {
+	padding-left: 30px;
+	margin-top: 40px;
+	font-size: 17px;
+	font-family: "rooney-sans", sans-serif;
+	font-weight: 500;
+}
+
+#hotelservicesimg {
+	float: right;
+	border-radius: 50%;
+	width: 200px;
+	height: 200px;
+	margin-right: 130px;
+	margin-top: 20px;
+}
+
+#petitesuites {
+	padding-left: 150px;
+	margin-top: 300px;
+	font-size: 25px;
+	font-family: "rooney-sans", sans-serif;
+	font-weight: 700;
+}
+
+#petitesuitestext {
+	padding-left: 30px;
+	padding-top: 10px;
+	font-size: 17px;
+	font-family: "rooney-sans", sans-serif;
+	font-weight: 500;
+}
+
+#hotelimg2 {
+	border-radius: 50%;
+	width: 200px;
+	height: 200px;
+	margin-left: 150px;
+	margin-top: 100px;
+}
+
+.hotelpricelist {
+	background-color: #F5F5F5;	
+	height: 1600px;
+	margin-top: 390px;
+}
+
+.column8 {
+	background-color: #fff;
+	float: left;
+	width: 66.5%;
+	padding: 8px;
+	border: 1px solid #DDDDDD;;
+	margin-left: 80px;
+	text-align:center;
+	margin-top: 20px;
+}
+
+.column9 {
+	margin-top: 30px;
+	background-color: #fff;
+	float: left;
+	width: 66.5%;
+	padding: 8px;
+	border: 1px solid #DDDDDD;;
+	margin-left: 80px;
+	text-align:center;
+}
+
+.column10 {
+	margin-top: 30px;
+	background-color: #fff;
+	float: left;
+	width: 66.5%;
+	padding: 8px;
+	border: 1px solid #DDDDDD;;
+	margin-left: 80px;
+	text-align:center;
+}
+
+.groomingparallax {
+    min-height: 400px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../Images/nail-clipping-g1e2f8b8a0_640.jpg);	
+}
+
+.groomhomeimg {
+	background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 400px;
+    opacity: 82%;
+    margin-top: -10px;
+}
+
+.grooming {
+	color: #FFFFFF;
+    font-family: Bahnschrift;
+    font-weight: 700;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 70px;
+}
+
+.groomingabout {
+	height: 1200px;
+	margin-top: 100px;
+	background: rgba(255,92,0,0.1);
+}
+
+
+#groomingtitle {
+	font-size: 25px;
+	text-align: center;
+	padding-top: 50px;
+	padding-left: 20px;
+	color:black;
+	font-family: "rooney-sans", sans-serif;
+	font-weight: 700;
+}
+
+#groominginfo {
+	padding-left: 50px;
+	margin-top: 60px;
+	font-family: "rooney-sans", sans-serif;
+	font-weight: 500;
+	font-size: 17px;
+}
+
+#groominginfo2 {
+	font-family: "rooney-sans", sans-serif;
+	font-weight: 500;
+	font-size: 17px;
+	padding-left: 50px;
+	justify-content: center;
+	margin-top: 30px;
+}
+
+#groomingimg {
+	float: right;
+	border-radius: 50%;
+	width: 200px;
+	height: 200px;
+	margin-right: 130px;
+	margin-top: 30px;
+}
+
+#servicestext {
+	padding-left: 30px;
+	margin-top: 40px;
+	font-size: 17px;
+	font-family: "rooney-sans", sans-serif;
+	font-weight: 500;
+}
+
+#whygroomyourpet {
+	font-size: 25px;
+	font-family: "rooney-sans", sans-serif;
+	font-weight: 700;
+	margin-top: 70px;
+	padding-left: 110px;
+}
+
+#whygroomtext {
+	padding-left: 30px;
+	margin-top: 40px;
+	font-size: 17px;
+	font-family: "rooney-sans", sans-serif;
+	font-weight: 500;
+}
+
+#groomingmainimg {
+	height: 400px;
+	padding-left: 80px;
+	margin-top: 30px;
+}
+
+.photocontainer {
+	display: grid;
+	grid-template-columns: repeat(6, 1fr);
+	grid-auto-rows: 100px 300px;
+	grid-gap: 10px;	
+	grid-auto-flow: dense;
+	padding-bottom: 20px;
+}
+
+aside {
+	margin-top: 60px;
+}
+
+#contactclockicon {
+	margin-left: 293px;
+	margin-top: -120px;
+	margin-bottom: 32px;
+}
+
+#openinghourstitle {
+	font-family: "rooney-sans", sans-serif;
+	font-weight: 700;
+	margin-left: 120px;
+}
+
+#openinghours {
+	margin-left: 120px;
+	font-family: "rooney-sans", sans-serif;
+	font-weight: 500;
+}
+
+
+.navbar li a  {
+  display: inline-block;
+  position: relative;
+  color: #34ADD3;
+}
+
+.navbar li  ::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #34ADD3;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.navbar li  :hover::after {
+  transform: scaleX(1);
+	transform-origin: bottom left;
+}
+
+
+
+
+
+
+
+
+/*Mobile View for Gallery*/
+
+@media (max-width:700px) {
+	.container {
+		grid-template-columns: repeat(2,1fr);
+	
+	}
+	
+	.w-1,.w-2,.w-3,.w-4,.w-5,.w-6{
+		grid-column:span 1;
+	}
+	
+	.contactsection {
+	padding-bottom: 60px;
+	margin-bottom: 10px;
+}
+.contactform {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 40%;
+	height: 100%;
+	padding: 20px 100px;
+	margin-left: 80px;
+	margin-top: -20px;
+	
+}
+
+.contactform:after {
+	content: '';
+	psoition: absolute;
+	left:0;
+	top:0;
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+}
+
+.contactbox {
+	max-width: 850px;
+	display: grid;
+	grid-template-columns: repeat (2, 1fr);
+	justify-content: center;
+	align-items: center;
+	text-aling: center;
+}
+
+.right {
+	padding:40px;
+	width: 100%
+}
+
+h2 {
+	position: relative;
+	
+}
+
+h2:after {
+	content:'';
+	position:absolute;
+	left:40%;
+	bottom: -15%;
+	transform: translateX(-50%);
+	height: 4px;
+	width: 80px;
+	border-radius: 3px;
+	background-color:#E28517;
+	
+}
+
+.field {
+	width:250%; 
+	padding: 0.5rem  1rem;
+	background-color:rgba(200,200,200,1.00);
+	font-size: 20px;
+	border: 2px solid rbga(0,0,0,0);
+	margin-bottom: 22px;
+	transition: 0.3s
+}
+
+.field:hover {
+	background-color:rgba(0, 0, 0, 0.1);
+
+}
+
+.field:focus {
+	background-color: #fff;
+	border: 2px solid rgba(30,85,250,0.47);
+}
+
+.button-contact {
+	background-color: #E28517;
+    border: solid;
+    border-color: #E28517;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    text-align: center;
+  	margin-top: 30px;
+  	position: absolute;
+  	left: 80%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+	
+}
+
+/*Desktop View*/
+
+@media (min-width: 1024px){
+	
+	.topheader {
+		height: 35px;
+		width: 103%
+	}
+	
+	#headerclock {
+    margin-left: 25px;
+    margin-top: 4px;;
+	}
+	
+	#headertime {
+    margin-left: 65px;
+	}
+	
+	#headerlocation {
+    float: none;
+    margin-top: -39px;
+    margin-left: 925px;
+	}
+	
+	#headerlocationtext {
+    margin-left: 961px;
+	}
+	
+	#headerphone {
+    margin-top: -89px;
+    margin-bottom: 33px;
+    margin-left: 1110px;
+	}
+	
+	#headerphonetext {
+    margin-bottom: 43px;
+    margin-top: -55px;
+    margin-left: 1144px;
+	}
+	
+	.logo {
+		float: left;
+	}
+	
+	.navbar {
+		display: flex;
+		align-items: center;
+		justif-content: space-between;
+		margin-left: 740px;
+		Background: #FFFFFF;
+	}
+	.navbar ul {
+    list-style: none;
+	font-size: 15px;	
+}
+	.navbar ul {
+		list-style: none;
+	}
+	
+	.navbar ul li {
+		display: inline-block;
+		position: relative;
+		background: #FFFFFF;
+	}
+	
+	.navbar ul li a {
+		display: block;
+		text-decoration: none;
+		background: #FFFFFF;
+		padding: 15px;
+		color: #C8C8C8;
+	}
+	
+	.navbar ul li ul.dropdown li {
+		display: block; 
+		text-align: center;
+	
+	}
+	
+	.navbar ul li ul.dropdown {
+		width: 100%;
+		background: #FFFFFF;
+		position: absolute;
+		z-index: 9;
+	}
+	
+	.navbar ul li a:hover {
+		background: #FFFFFF;
+}
+	
+	ul li:hover ul.dropdown {
+		display: block;
+		
+	}
+	
+	.home h1 {
+		font-size: 40px;
+	}
+	
+	#hometitle {
+		padding-left: 820px;
+		margin-top: 60px;
+		font-size:25px;
+	}
+	
+	#hometext {
+		padding-left: 780px;
+		font-size: 20px;
+	}
+	
+	#hometext2 {
+		padding-left: 780px;
+		font-size: 20px;
+	}
+	
+	#homeimg {
+		margin-top: -330px;
+		height: 400px;
+		width: 400px;
+	}
+	
+	.homeservices {
+    margin-top: 10px;
+	padding-top: 50px;
+}
+	
+	#serviceshome {
+		text-align: center;
+		padding-right: 140px;
+	}
+	
+	#daycarehomeicon {
+		margin-left: -100px;
+		margin-top: 30px;
+	}
+	
+	#daycarehometitle {
+		margin-left: -90px;
+		font-size: 20px;
+		padding-top: 5px;
+	}
+	
+	#daycarehometext {
+		font-size: 17px;
+		padding-left: 10px;
+	}
+	#betterpupshomeicon {
+    margin-top: -490px;
+    margin-left: 210px;
+    margin-bottom: 200px;
+	}
+	
+	#betterpupshometitle {
+		margin-left: 230px;
+		margin-top: -170px;
+		font-size: 20px;
+	}
+	
+	#betterpupshometext {
+		margin-left: 230px;
+		font-size:17px;
+	}
+	
+	#happypawshomeimg {
+		margin-top: -350px;
+		margin-left: 550px;
+		 margin-bottom: 198px
+	}
+	
+	#happypawshometitle {
+		margin-left: 570px;
+		margin-top: -171px;
+		font-size: 20px;
+	}
+	
+	#happypawshometext {
+		margin-left: 560px;
+		font-size: 17px;
+	}
+	
+	#hotelhomeimg {
+		margin-left: 870px;
+		margin-top: -500px;
+		margin-bottom: 195px;
+	}
+	
+	#hotelhometitle {
+		font-size: 20px;
+		margin-left: 880px;
+		margin-top: -170px;
+	}
+	
+	#hotelhometext {
+		margin-left: 880px;
+		font-size: 17px;
+	}
+	
+	.button-daycare {
+	background-color: #E28517;
+    border: solid;
+    border-color: #E28517;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    padding-right: 25px;
+    padding-left: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+  	margin: 0;
+  	position: absolute;
+  	left: 12%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+	margin-top: 30px;
+	}
+	
+	.button-training {
+	background-color: #E28517;
+    border: solid;
+    border-color: #E28517;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    padding-right: 25px;
+    padding-left: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+  	margin: 0;
+  	position: absolute;
+  	left: 37%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+	margin-top: 30px;
+	}
+	
+	.button-grooming {
+	background-color: #E28517;
+    border: solid;
+    border-color: #E28517;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    padding-right: 25px;
+    padding-left: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+  	margin: 0;
+  	position: absolute;
+  	left: 64%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+	margin-top: 30px;
+	}
+	
+	.button-hotel {
+	background-color: #E28517;
+    border: solid;
+    border-color: #E28517;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    padding-right: 25px;
+    padding-left: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+  	margin: 0;
+  	position: absolute;
+  	left: 88%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+	margin-top: 30px;
+	}
+	
+	.missionhome {
+		min-height: 450px;
+	}
+	
+	#missiontitle {
+		font-size: 25px;
+		padding-top: -30px;
+
+	}
+	
+	#missiontext {
+		font-size: 20px;
+		padding-top: 40px;
+	}
+	
+	.button-mission {
+		margin-top: 60px;
+		left: 20%;
+	}
+	
+	#missionimg {
+		width: 300px;
+		height: 300px;
+		float: right;
+		margin-right: 130px;
+		margin-top: -190px;
+	}
+	footer {
+		height:50px;
+	}
+	
+	footer p {
+		margin-left: -40px;
+		font-size: 18px;
+	}
+	
+	.footercontact p {
+		margin-top: -31px;
+		margin-left: 740px;
+		font-size: 15px;
+	}
+	
+	.contacticons {
+		margin-top: -40px;
+		float: right;
+		margin-right: 60px;
+		
+	}
+	
+	
+	
+	
+	
+	
+
+	.homeimg {
+		margin-top: -30px;
+	}
+	
+	.titleimg {
+		margin-top: -50px;
+	}
+	
+	.title h5 {
+		font-size:20px;
+	}
+	
+	.title h1 {
+		font-size:60px;
+	}
+	
+	#background-bluewave {
+		height: 1400px;
+	}
+	
+	#positivedogtitle {
+		padding-left: 120px;
+		font-size: 25px;
+		margin-top: 90px;
+		
+	}
+	
+	#positivedogtext {
+		padding-left:90px;
+		margin-top:40px;
+		font-size:18px;
+	}
+	
+	#positivedogimg {
+		width: 250px;
+		height: 250px;
+		margin-left: 310px;
+		margin-top:-60px;
+		
+	}
+	
+	#stafftitle {
+		padding-left: 820px;
+		margin-top: 200px;
+		font-size:25px;
+}
+	#stafftext {
+		padding-left: 740px;
+		padding-top: 20px;	
+	}
+	
+	#staffimg {
+		width: 250px;
+		height: 250px;
+		margin-left: -380px;
+		margin-top: -120px;
+		
+	}
+	
+	#facilitiestitle {
+		padding-left: 180px;
+		margin-top:160px;
+		
+	}
+	
+	#facilitiestext {
+		font-size: 18px;
+		padding-left: 50px;
+		
+	}
+	
+	#facilitiesimg {
+		width: 250px;
+		height: 250px;
+		margin-left: 310px;
+		margin-top: -90px
+	}
+	
+	.trainingservices {
+		padding-bottom: 300px;
+	}
+		
+	
+	.trainingabout {
+		height: 410px;
+	}
+	
+	.trainingtitle {
+		font-size: 40px;
+		color: white;
+	}
+	
+	#trainingicon {
+		margin-left: 580px;
+		margin-top: 30px;
+		height: 90px;
+	}
+	
+	#trainingtagline {
+		font-size: 25px;
+		margin-left: 440px;
+		margin-top: 30px;
+	}
+	
+	#pawsacademytitle {
+		font-size: 35px;
+		
+	}
+	
+	#pawsacademyinfo {
+		font-size: 18px;
+		margin-top: 80px;
+		padding-left: 30px;
+	}
+	
+	#pawsacademyinfo2 {
+		font-size: 18px;
+		padding-left: 450px;
+		margin-top: -150px;
+	}
+	
+	#pawsacademyimg {
+		margin-right: 80px;
+		margin-top: -150px;
+	}
+	
+	#rehabtitle {
+		padding-left: 120px;
+		font-size: 25px;
+		margin-top: 90px;
+	}
+	
+	#rehabtext {
+		padding-left:50px;
+		margin-top:40px;
+		font-size:18px;
+	}
+	
+	#rehabimg {
+		width: 250px;
+		height: 250px;
+		margin-right: 130px;
+		margin-top:-220px;
+	}
+	
+	.button-behaviour {
+		left: 20%;
+		margin-top: 50px;
+	}
+	
+	#puppytrainingtitle {
+		padding-left: 870px;
+		margin-top: 200px;
+		font-size:25px;
+	}
+	
+	#puppytainingtext {
+		padding-left: 740px;
+		padding-top: 20px;
+	}
+	
+	#puppytainingimg {
+		width: 250px;
+		height: 250px;
+		margin-left: 120px;
+		margin-top: -200px;
+	}
+
+	.button-ptraining {
+		left: 76%;
+		margin-top: 50px;
+	}
+	
+	#k9trainingtitle {
+		padding-left: 180px;
+		margin-top:140px;
+	}
+	
+	#k9trainingtext {
+		font-size: 18px;
+		padding-left: 70px;
+	}
+	
+	#k9trainingimg {
+		width: 250px;
+		height: 250px;
+		marign-right: 130px;
+		margin-top: -150px;
+	}
+	
+	.button-k9 {
+		left: 22%;
+		margin-top: 50px;
+	}
+	
+	#puppytrainingicon {
+		margin-left: 550px;
+		margin-top: 30px;
+		height: 70px;
+	}
+	
+	#puppytitle {
+		padding-left: 890px;
+		margin-top: 30px;
+		font-size:25px;
+	}
+	
+	#aboutpuppytext {
+		padding-left: 850px;
+		padding-top: 20px;
+		
+	}
+	
+	#puppytraininghomeimg {
+		width: 250px;
+		height: 250px;
+		margin-left: 120px;
+		margin-top: -240px;
+	
+	}
+	
+	#puppytraininglisttitle {
+		font-size: 25px;
+		text-align: center;
+		margin-left: 700px;
+		
+	}
+	
+	#puppytraininglist {
+		padding-left: 830px;
+		padding-top: -40px;
+		font-family: "rooney-sans", sans-serif;
+		font-weight: 500;
+		
+	}
+	
+	#puppytraininghomeimg2 {
+		width: 250px;
+		height: 250px;
+		margin-left: 120px;
+		margin-top: -170px;
+		
+	}
+	
+	#puppytrainingvideo {
+		margin-left: 400px;
+	}
+	
+	#backgroundbluewave2 {
+		height: 1800px;
+	}
+	
+	
+	#k9trainingtitle {
+		padding-left: 890px;
+		margin-top: 30px;
+		font-size:25px;
+	}
+	
+	#aboutk9text {
+		padding-left: 740px;
+		padding-top: 20px;
+		
+	}
+	
+	#k9ytraininghomeimg {
+		width: 250px;
+		height: 250px;
+		margin-left: 120px;
+		margin-top: -240px;
+		
+	}
+	#k9traininglisttitle {
+		padding-left: 890px;
+		margin-top: 30px;
+		font-size:25px;
+	}
+	
+	#k9traininglist {
+		padding-left: 740px;
+		padding-top: 90px;
+	}
+	
+	#k9traininghomeimg2 {
+		width: 250px;
+		height: 250px;
+		margin-left: 120px;
+		margin-top: -210px;
+	}	
+	
+	#k9trainingvideo {
+		margin-left: 370px;
+		margin-top: 80px;
+		
+	}
+	.column1 {
+		width: 33.3%;
+		margin-left: 180px;
+	}
+	
+	.button-price {
+		margin-left: 10px;
+		padding-left: 40px;
+		padding-right:40px;
+		font-size: 16px;
+	}
+	
+	.column2 {
+		width: 33.3%;
+		margin-top: -0.1px
+	}
+	
+	.column3 {
+		width: 45.6%;
+		margin-left: -180px;
+	}
+	
+	.column4 {
+		width: 45.6%;
+		margin-top: -1px;
+
+	}
+	#daycareicon {
+		margin-left: 570px;
+	}
+	.daycareabout {
+		height: 550px;
+	}
+	#daycaretitle {
+		margin-right: 70px;
+	}
+	
+	#daycareinfo {
+		font-size: 18px;
+		margin-top: 80px;
+		padding-left: 30px;
+	}
+	
+	#daycareinfo2 {
+		font-size: 18px;
+		padding-left: 450px;
+		margin-top: -280px;
+	}
+	
+	#daycareimg {
+		margin-right: 80px;
+		margin-top: -340px;
+		width: 250px;
+		height: 250px;
+	}
+	
+	.daycareservices {
+		margin-top: -90px;
+		height: 790px;
+	}
+	
+	#purfectloungetitle {
+		padding-left: 150px;
+		font-size: 25px;
+		margin-top: 130px;
+	}
+	
+	#purfectloungtext {
+		padding-left:50px;
+		margin-top:40px;
+		font-size:18px;
+	}
+	
+	
+	#purfectloungeimg {
+		width: 250px;
+		height: 250px;
+		margin-right: 130px;
+		margin-top:-230px;
+	}
+	
+	#daycarelist {
+		padding-left: 830px;
+		margin-top: 180px;
+		font-size:25px;
+	}
+	
+	#daycarelisttetx {
+		padding-left: 720px;
+		padding-top: 20px;
+	}
+	
+	#daycareimg2 {
+		width: 250px;
+		height: 250px;
+		margin-left: 160px;
+		margin-top: -290px;
+	}
+	
+	.daycarepricelist {
+		margin-top: -64px;
+		height: 420px;
+	}
+	
+	.column5 {
+		width: 28.0%;
+		margin-left: 20px;
+	}
+	
+	.column6 {
+		width: 28.0%;
+		margin-top: 19px;
+	
+	}
+	
+	.column7 {
+		width: 28.0%;
+		margin-top:19px;
+	}
+	
+	#hotelicon {
+		margin-left: 570px;
+	}
+	
+	#hoteltitle {
+		margin-right: 70px;
+		
+	}
+	
+	.hotelservices {
+		height: 820px;
+	}
+	
+	.hotelabout {
+		height: 500px;
+	}
+	#hotelinfo {
+		font-size: 18px;
+		margin-top: 80px;
+		padding-left: 130px;
+	}
+	
+	#hotelimg {
+		margin-right: 80px;
+		margin-top: -240px;
+		width: 250px;
+		height: 250px;
+	}
+	
+	#innfacilities {
+		padding-left: 150px;
+		font-size: 25px;
+		margin-top: 130px;
+	}
+	
+	#innfacilitieslist {
+		padding-left:50px;
+		margin-top:40px;
+		font-size:18px;
+	}
+	
+	#hotelservicesimg {
+		width: 250px;
+		height: 250px;
+		margin-right: 130px;
+		margin-top:-280px;
+	}
+	
+	#petitesuites {
+		padding-left: 830px;
+		margin-top: 160px;
+		font-size:25px;
+	}
+	
+	#petitesuitestext {
+		padding-left: 720px;
+		padding-top: 20px;
+	}
+	
+	#hotelimg2 {
+		width: 250px;
+		height: 250px;
+		margin-left: 160px;
+		margin-top: -290px;
+	}
+	
+	.hotelpricelist {
+		height: 600px;
+		margin-top: -10px;
+	}
+	.column8 {
+		width: 28.0%;
+		margin-left: 40px;
+		margin-top: 28px;
+	}
+	
+	.column9 {
+		width: 28.0%;
+		margin-left: 40px;
+	}
+	
+	.column10 {
+		width: 28.0%;
+		margin-left: 40px;
+	}
+	
+	.groomingparallax {
+	background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    min-height: 300px;
+    background-attachment: fixed;
+	}
+	
+	.groomingabout {
+		height: 600px;
+	}
+	
+	#groominginfo {
+		font-size: 18px;
+		margin-top: 80px;
+		padding-left: 30px;
+	}
+	
+	#groominginfo2 {
+		font-size: 18px;
+		padding-left: 450px;
+		margin-top: -280px;
+	}
+	
+	#groomingimg {
+		margin-right: 80px;
+		margin-top: -340px;
+		width: 250px;
+		height: 250px;
+	}
+	
+	#servicestext {
+		padding-left:40px;
+		margin-top:40px;
+		font-size:18px;
+	}
+	
+	#whygroomyourpet {
+		padding-left: 110px;
+		font-size: 25px;
+		margin-top: -220px;
+	}
+	
+	#whygroomtext {
+		padding-left:50px;
+		margin-top:40px;
+		font-size:18px;
+	}
+	
+	#groomingmainimg {
+		margin-left: 700px;
+		margin-top:-230px;
+		height: 500px;
+	}
+	
+	.gallery-item {
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+
+	.gallery-item .image {
+		width: 100%;
+		height: 100%;
+		overflow: hidden;
+	}
+	
+	.gallery-item .image img {
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+		object-position: 50% 50%;
+		cursor: pointer;
+		transition:.5s ease-in-out;
+	}
+	
+	.galleryitem:hover {
+		transform:scale(1.5);
+	}
+	
+	.w-1 {
+		grid-column: span 1;
+	}
+	
+	.w-2 {
+		grid-column: span 2;
+	}
+
+	
+	.w-3 {
+		grid-column: span 3;
+	}
+
+	
+	.w-4 {
+		grid-column: span 4;
+	}
+
+	
+	.w-5 {
+		grid-column: span 2;
+	}
+	
+	.w-6 {
+		grid-column: span 6;
+	}
+
+	.h-2 {
+		grid-row: span 2;
+	}
+	
+	.h-1 {
+		grid-row: span 1;
+	}
+	
+	.h-3 {
+		grid-row: span 3;
+	}
+	
+.contactsection {
+	padding-bottom: 60px;
+	margin-bottom: 10px;
+}
+.contactform {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 40%;
+	height: 100%;
+	padding: 20px 100px;
+	margin-left: 600px;
+	margin-top: -350px;
+}
+
+.contactform:after {
+	content: '';
+	psoition: absolute;
+	left:0;
+	top:0;
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+}
+
+.contactbox {
+	max-width: 850px;
+	display: grid;
+	grid-template-columns: repeat (2, 1fr);
+	justify-content: center;
+	align-items: center;
+	text-aling: center;
+}
+
+.right {
+	padding:40px;
+	width: 100%
+}
+
+h2 {
+	position: relative;
+	
+}
+
+h2:after {
+	content:'';
+	position:absolute;
+	left:40%;
+	bottom: -15%;
+	transform: translateX(-50%);
+	height: 4px;
+	width: 80px;
+	border-radius: 3px;
+	background-color:#E28517;
+	
+}
+
+.field {
+	width:250%; 
+	padding: 0.5rem  1rem;
+	background-color:rgba(200,200,200,1.00);
+	font-size: 20px;
+	border: 2px solid rbga(0,0,0,0);
+	margin-bottom: 22px;
+	transition: 0.3s
+}
+
+.field:hover {
+	background-color:rgba(0, 0, 0, 0.1);
+
+}
+
+.field:focus {
+	background-color: #fff;
+	border: 2px solid rgba(30,85,250,0.47);
+}
+
+.button-contact {
+	background-color: #E28517;
+    border: solid;
+    border-color: #E28517;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    text-align: center;
+  	margin-top: 30px;
+  	position: absolute;
+  	left: 70%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+}
+
+
+	
+	
